@@ -22,4 +22,16 @@ html { box-sizing: border-box; }
 .kontejner > div:nth-child(5n+5) { background-color: #9b59b6;}
 
 /* ---------------------------------------------------- */
-
+.kontejner {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr 1fr;
+    grid-template-rows: 200px 100px 150px;
+}
+.bobik {
+    grid-column: 2 / -1;
+    grid-row: 2;
+}
+.bob {
+    grid-column: 3;
+    grid-row: 1 / span 3;  
+}
