@@ -42,3 +42,8 @@ Vyzkoušíme si:
 	- dense (zabraňuje mezerám)
 - order
 */
+.kontejner {
+	display: grid;
+	grid-template-columns: repeat(6,1fr);
+	grid-auto-rows: 200px;
+}

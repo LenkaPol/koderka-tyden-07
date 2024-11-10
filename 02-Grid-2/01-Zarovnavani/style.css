@@ -42,3 +42,10 @@ Vyzkoušíme si:
 	- dense (zabraňuje mezerám)
 - order
 */
+.kontejner {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: repeat(3, 200px);
+	justify-items: center;
+	align-items: center;
+}
