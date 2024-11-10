@@ -4,6 +4,16 @@ html { box-sizing: border-box; }
 
 body {
 	font: 16px/1.5 sans-serif;
+	margin: 50px;
 }
 
 /*************************************************/
+.hlavni::after {
+	content: "";
+	display: block;
+	width: 100px;
+	height: 10px;
+	background-color: palevioletred;
+	margin-top: 10px;
+	margin-left: -25px;
+}

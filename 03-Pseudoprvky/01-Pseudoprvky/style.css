@@ -17,3 +17,7 @@ CSS Selektory:
 ::before						uvnitř prvku, před obsahem
 ::after							uvnitř prvku, za obsahem
 */
+h2::before {
+	content: "xxx";
+	background-color: aquamarine;
+}
